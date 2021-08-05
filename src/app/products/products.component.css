@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+ 
+  }
+  
+  td, th {
+    border: 3px solid rgb(47, 56, 145);
+   
+    text-align: center;
+ 
+  }
+
+  .search-container{
+    width: 550px;
+   
+    margin: 0 auto;
+    display : block;
+ 
+  }

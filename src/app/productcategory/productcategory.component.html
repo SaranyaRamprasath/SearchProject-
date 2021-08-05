@@ -1,0 +1,16 @@
+
+
+    <table *ngIf="category" class="search-container" >
+        <!-- ADD HEADERS -->
+        
+           <b>{{category}}</b> 
+            <!-- BIND ARRAY TO TABLE -->
+        <tr   *ngFor="let list of categoryItems" class="search-containeritems"  >
+            <td width = "250px">{{list.name}}</td>
+            <td  width = "250px">{{list.price}}</td>
+                    
+        </tr>
+        </table> 
+
+       
+   

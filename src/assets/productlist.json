@@ -1,0 +1,56 @@
+[
+    {
+      "category": "Sporting Goods",
+      "price": "5000",
+      "stocked": true,
+      "name": "FootBall"
+    },
+    {
+       "category": "Sporting Goods",
+      "price": "4000",
+      "stocked": false,
+      "name": "BaseBall"
+    },
+    {
+       "category": "Sporting Goods",
+      "price": "3000",
+      "stocked": true,
+      "name": "BasketBall"
+    },
+    {
+       "category": "Electronics",
+      "price": "50000",
+      "stocked": true,
+      "name": "IPad"
+    },
+    {
+      "category": "Electronics",
+     "price": "50000",
+     "stocked": true,
+     "name": "Hair dryer"
+   },
+    {
+      "category": "Electronics",
+      "price": "80000",
+      "stocked": true,
+      "name": "Iphone11"
+    },
+    {
+      "category": "Electronics",
+      "price": "100000",
+      "stocked": false,
+      "name": "Television"
+    },
+    {
+      "category": "Sporting Goods",
+      "price": "5000",
+      "stocked": false,
+      "name": "Hockey"
+    },
+    {
+      "category": "Electronics",
+      "price": "70000",
+      "stocked": true,
+      "name": "oneplus"
+    }
+]

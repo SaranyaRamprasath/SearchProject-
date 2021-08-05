@@ -1,0 +1,11 @@
+
+<h1 align ="center">Search your category of items !!!</h1>
+<div >
+<div><input type="text" id="search" name="search" class="search-container"
+     (keyup)= "onKeyUp()" [(ngModel)] = "searchText" placeholder="What are you looking for?">
+
+    </div>
+</div>
+<div  class="search-container"><input type="checkbox" (change) = "onCheckBoxChecked($event)"> 
+    <b>Only show products in stock!!</b></div>
+

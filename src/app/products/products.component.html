@@ -1,0 +1,20 @@
+
+ <app-search (searchKeyUp)= "onSearchKeyUp($event)" (checkStock)= "onCheckStock($event)"> </app-search>
+        
+
+    <table *ngIf="productSource" class="search-container" >
+        <!-- ADD HEADERS -->
+           <tr >     
+                <th width = 300px >Name </th>
+                <th width = 300px> Price </th>
+            </tr>     
+     </table>  
+     
+        <!-- BIND ARRAY TO TABLE -->
+        <app-productcategory [category]="productCategory.categoryName" 
+        [categoryItems]="productCategory.products" 
+        *ngFor="let productCategory of productCategoryList">
+           
+        </app-productcategory>
+    
+
